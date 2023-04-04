@@ -1,11 +1,8 @@
 import pandas as pd
 import yfinance as yf
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 import numpy as np
 import sqlite3
-import seaborn as sns
-from datetime import datetime
 from datetime import timedelta
 
 # Define the start and end dates for the data and remove the time component
